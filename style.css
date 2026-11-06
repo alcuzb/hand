@@ -1,0 +1,6 @@
+html,body{margin:0;height:100%;background:#0d1117;color:#fff;font:16px system-ui,sans-serif;overflow:hidden}
+#cam{position:fixed;inset:0;width:100%;height:100%;object-fit:cover;transform:scaleX(-1);opacity:.55}
+#gl{position:fixed;inset:0;width:100%;height:100%}
+#hud{position:fixed;left:12px;right:12px;bottom:14px;display:flex;flex-direction:column;gap:2px;text-shadow:0 1px 4px #000}
+#name{font-size:1.2rem}
+#msg{font-size:.85rem;opacity:.85}
